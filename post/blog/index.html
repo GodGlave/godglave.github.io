@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Blog | My New Hugo Site</title>
+<meta name="keywords" content="">
+<meta name="description" content="MyBlog Install hugo brew install hugo
+==&gt; Downloading https://ghcr.io/v2/homebrew/core/hugo/manifests/0.100.2
+==&gt; Downloading https://ghcr.io/v2/homebrew/core/hugo/blobs/sha256:0b38ebc6b23ec
+==&gt; Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+==&gt; Pouring hugo&ndash;0.100.2.big_sur.bottle.tar.gz
+==&gt; Caveats
+zsh completions have been installed to:
+/usr/local/share/zsh/site-functions
+==&gt; Summary
+🍺 /usr/local/Cellar/hugo/0.100.2: 48 files, 58.4MB
+==&gt; Running brew cleanup hugo&hellip;
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see man brew).
+Install finish hugo version
+hugo v0.100.2&#43;extended darwin/amd64 BuildDate=unknown
+xujian@xujians-iMac ~ % hugo new site myblog
+Congratulations! Your new Hugo site is created in /Users/xujian/myblog.">
+<meta name="author" content="">
+<link rel="canonical" href="https://godglave.github.io/post/blog/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.d7fb4cbf980fe688a21621b06a795933c4e6bb2d4070ec940667af1715d84af2.css" integrity="sha256-1/tMv5gP5oiiFiGwanlZM8Tmuy1AcOyUBmevFxXYSvI=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://godglave.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://godglave.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://godglave.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://godglave.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://godglave.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Blog" />
+<meta property="og:description" content="MyBlog Install hugo brew install hugo
+==&gt; Downloading https://ghcr.io/v2/homebrew/core/hugo/manifests/0.100.2
+==&gt; Downloading https://ghcr.io/v2/homebrew/core/hugo/blobs/sha256:0b38ebc6b23ec
+==&gt; Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+==&gt; Pouring hugo&ndash;0.100.2.big_sur.bottle.tar.gz
+==&gt; Caveats
+zsh completions have been installed to:
+/usr/local/share/zsh/site-functions
+==&gt; Summary
+🍺 /usr/local/Cellar/hugo/0.100.2: 48 files, 58.4MB
+==&gt; Running brew cleanup hugo&hellip;
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see man brew).
+Install finish hugo version
+hugo v0.100.2&#43;extended darwin/amd64 BuildDate=unknown
+xujian@xujians-iMac ~ % hugo new site myblog
+Congratulations! Your new Hugo site is created in /Users/xujian/myblog." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://godglave.github.io/post/blog/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-06-10T20:51:31&#43;08:00" />
+<meta property="article:modified_time" content="2022-06-10T20:51:31&#43;08:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Blog"/>
+<meta name="twitter:description" content="MyBlog Install hugo brew install hugo
+==&gt; Downloading https://ghcr.io/v2/homebrew/core/hugo/manifests/0.100.2
+==&gt; Downloading https://ghcr.io/v2/homebrew/core/hugo/blobs/sha256:0b38ebc6b23ec
+==&gt; Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+==&gt; Pouring hugo&ndash;0.100.2.big_sur.bottle.tar.gz
+==&gt; Caveats
+zsh completions have been installed to:
+/usr/local/share/zsh/site-functions
+==&gt; Summary
+🍺 /usr/local/Cellar/hugo/0.100.2: 48 files, 58.4MB
+==&gt; Running brew cleanup hugo&hellip;
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see man brew).
+Install finish hugo version
+hugo v0.100.2&#43;extended darwin/amd64 BuildDate=unknown
+xujian@xujians-iMac ~ % hugo new site myblog
+Congratulations! Your new Hugo site is created in /Users/xujian/myblog."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://godglave.github.io/post/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Blog",
+      "item": "https://godglave.github.io/post/blog/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Blog",
+  "name": "Blog",
+  "description": "MyBlog Install hugo brew install hugo\n==\u0026gt; Downloading https://ghcr.io/v2/homebrew/core/hugo/manifests/0.100.2\n==\u0026gt; Downloading https://ghcr.io/v2/homebrew/core/hugo/blobs/sha256:0b38ebc6b23ec\n==\u0026gt; Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh\n==\u0026gt; Pouring hugo\u0026ndash;0.100.2.big_sur.bottle.tar.gz\n==\u0026gt; Caveats\nzsh completions have been installed to:\n/usr/local/share/zsh/site-functions\n==\u0026gt; Summary\n🍺 /usr/local/Cellar/hugo/0.100.2: 48 files, 58.4MB\n==\u0026gt; Running brew cleanup hugo\u0026hellip;\nDisable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.\nHide these hints with HOMEBREW_NO_ENV_HINTS (see man brew).\nInstall finish hugo version\nhugo v0.100.2+extended darwin/amd64 BuildDate=unknown\nxujian@xujians-iMac ~ % hugo new site myblog\nCongratulations! Your new Hugo site is created in /Users/xujian/myblog.",
+  "keywords": [
+    
+  ],
+  "articleBody": "MyBlog Install hugo brew install hugo\n==\u003e Downloading https://ghcr.io/v2/homebrew/core/hugo/manifests/0.100.2\n==\u003e Downloading https://ghcr.io/v2/homebrew/core/hugo/blobs/sha256:0b38ebc6b23ec\n==\u003e Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh\n==\u003e Pouring hugo–0.100.2.big_sur.bottle.tar.gz\n==\u003e Caveats\nzsh completions have been installed to:\n/usr/local/share/zsh/site-functions\n==\u003e Summary\n🍺 /usr/local/Cellar/hugo/0.100.2: 48 files, 58.4MB\n==\u003e Running brew cleanup hugo…\nDisable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.\nHide these hints with HOMEBREW_NO_ENV_HINTS (see man brew).\nInstall finish hugo version\nhugo v0.100.2+extended darwin/amd64 BuildDate=unknown\nxujian@xujians-iMac ~ % hugo new site myblog\nCongratulations! Your new Hugo site is created in /Users/xujian/myblog.\nJust a few more steps and you’re ready to go:\n\\1. Download a theme into the same-named folder.\nChoose a theme from https://themes.gohugo.io/ or\ncreate your own with the “hugo new theme ” command.\n\\2. Perhaps you want to add some content. You can add single files\nwith “hugo new /.”.\n\\3. Start the built-in live server via “hugo server”.\nVisit https://gohugo.io/ for quickstart guide and full documentation.\nStart Build ls -l\ncd myblog/\nTheme git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth=1\nBlog Site hugo server -t PaperMod --buildDrafts\nWeb Server is available at http://localhost:1313/ (bind address 127.0.0.1)\nBuild Blog cd post/\nls\nblog.md\nhugo server -t PaperMod --buildDrafts\nDeploy Github hugo --theme=PaperMod --baseUrl=\"https://godglave.github.io/\" --buildDrafts\ngit init\ngit add .\ngit commit -m “My hugo Commit”\ngit remote add origin https://github.com/GodGlave/godglave.github.io.git\ngit push -u origin master\n",
+  "wordCount" : "212",
+  "inLanguage": "en",
+  "datePublished": "2022-06-10T20:51:31+08:00",
+  "dateModified": "2022-06-10T20:51:31+08:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://godglave.github.io/post/blog/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "My New Hugo Site",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://godglave.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://godglave.github.io/" accesskey="h" title="My New Hugo Site (Alt + H)">My New Hugo Site</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      Blog<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>
+    </h1>
+    <div class="post-meta"><span title='2022-06-10 20:51:31 +0800 CST'>June 10, 2022</span>
+
+</div>
+  </header> 
+  <div class="post-content"><h1 id="myblog">MyBlog<a hidden class="anchor" aria-hidden="true" href="#myblog">#</a></h1>
+<h2 id="install-hugo">Install hugo<a hidden class="anchor" aria-hidden="true" href="#install-hugo">#</a></h2>
+<p><code>brew install hugo</code></p>
+<p>==&gt; <strong>Downloading <a href="https://ghcr.io/v2/homebrew/core/hugo/manifests/0.100.2">https://ghcr.io/v2/homebrew/core/hugo/manifests/0.100.2</a></strong></p>
+<p>==&gt; <strong>Downloading <a href="https://ghcr.io/v2/homebrew/core/hugo/blobs/sha256:0b38ebc6b23ec">https://ghcr.io/v2/homebrew/core/hugo/blobs/sha256:0b38ebc6b23ec</a></strong></p>
+<p>==&gt; <strong>Downloading from <a href="https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh">https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh</a></strong></p>
+<p>==&gt; <strong>Pouring hugo&ndash;0.100.2.big_sur.bottle.tar.gz</strong></p>
+<p>==&gt; <strong>Caveats</strong></p>
+<p>zsh completions have been installed to:</p>
+<p>/usr/local/share/zsh/site-functions</p>
+<p>==&gt; <strong>Summary</strong></p>
+<p>🍺 /usr/local/Cellar/hugo/0.100.2: 48 files, 58.4MB</p>
+<p>==&gt; <strong>Running <code>brew cleanup hugo</code>&hellip;</strong></p>
+<p>Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.</p>
+<p>Hide these hints with HOMEBREW_NO_ENV_HINTS (see <code>man brew</code>).</p>
+<h2 id="install-finish">Install finish<a hidden class="anchor" aria-hidden="true" href="#install-finish">#</a></h2>
+<p><code>hugo version</code></p>
+<p>hugo v0.100.2+extended darwin/amd64 BuildDate=unknown</p>
+<p>xujian@xujians-iMac ~ % hugo new site myblog</p>
+<p>Congratulations! Your new Hugo site is created in /Users/xujian/myblog.</p>
+<p>Just a few more steps and you&rsquo;re ready to go:</p>
+<p>\1. Download a theme into the same-named folder.</p>
+<p>Choose a theme from <a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a> or</p>
+<p>create your own with the &ldquo;hugo new theme <!-- raw HTML omitted -->&rdquo; command.</p>
+<p>\2. Perhaps you want to add some content. You can add single files</p>
+<p>with &ldquo;hugo new <!-- raw HTML omitted -->/<!-- raw HTML omitted -->.<!-- raw HTML omitted -->&rdquo;.</p>
+<p>\3. Start the built-in live server via &ldquo;hugo server&rdquo;.</p>
+<p>Visit <a href="https://gohugo.io/">https://gohugo.io/</a> for quickstart guide and full documentation.</p>
+<h2 id="start-build">Start Build<a hidden class="anchor" aria-hidden="true" href="#start-build">#</a></h2>
+<p><code>ls -l</code></p>
+<p><code>cd myblog/</code></p>
+<h3 id="theme">Theme<a hidden class="anchor" aria-hidden="true" href="#theme">#</a></h3>
+<p><code>git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth=1</code></p>
+<h3 id="blog-site">Blog Site<a hidden class="anchor" aria-hidden="true" href="#blog-site">#</a></h3>
+<p><code>hugo server -t PaperMod --buildDrafts</code></p>
+<p><code>Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)</code></p>
+<h3 id="build-blog">Build Blog<a hidden class="anchor" aria-hidden="true" href="#build-blog">#</a></h3>
+<p><code>cd post/</code></p>
+<p><code>ls</code></p>
+<p><code>blog.md</code></p>
+<p><code>hugo server -t PaperMod --buildDrafts</code></p>
+<h3 id="deploy-github">Deploy Github<a hidden class="anchor" aria-hidden="true" href="#deploy-github">#</a></h3>
+<p><code>hugo --theme=PaperMod --baseUrl=&quot;https://godglave.github.io/&quot; --buildDrafts</code></p>
+<p>git init</p>
+<p>git add .</p>
+<p>git commit -m &ldquo;My hugo Commit&rdquo;</p>
+<p>git remote add origin <a href="https://github.com/GodGlave/godglave.github.io.git">https://github.com/GodGlave/godglave.github.io.git</a></p>
+<p>git push -u origin master</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="https://godglave.github.io/">My New Hugo Site</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
