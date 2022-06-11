@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on LittleArrow's Blog</title>
+    <title>Posts on LittleArrow&#39;s Blog</title>
     <link>https://godglave.github.io/post/</link>
-    <description>Recent content in Posts on LittleArrow's Blog</description>
+    <description>Recent content in Posts on LittleArrow&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 10 Jun 2022 20:51:31 +0800</lastBuildDate><atom:link href="https://godglave.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sat, 11 Jun 2022 20:39:22 +0800</lastBuildDate><atom:link href="https://godglave.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Blog</title>
-      <link>https://godglave.github.io/post/blog/</link>
-      <pubDate>Fri, 10 Jun 2022 20:51:31 +0800</pubDate>
+      <title>Blog_Build</title>
+      <link>https://godglave.github.io/post/blog_build/</link>
+      <pubDate>Sat, 11 Jun 2022 20:39:22 +0800</pubDate>
       
-      <guid>https://godglave.github.io/post/blog/</guid>
-      <description>MyBlog Install hugo brew install hugo
-==&amp;gt; Downloading https://ghcr.io/v2/homebrew/core/hugo/manifests/0.100.2
-==&amp;gt; Downloading https://ghcr.io/v2/homebrew/core/hugo/blobs/sha256:0b38ebc6b23ec
-==&amp;gt; Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
-==&amp;gt; Pouring hugo&amp;ndash;0.100.2.big_sur.bottle.tar.gz
-==&amp;gt; Caveats
-zsh completions have been installed to:
-/usr/local/share/zsh/site-functions
-==&amp;gt; Summary
-🍺 /usr/local/Cellar/hugo/0.100.2: 48 files, 58.4MB
-==&amp;gt; Running brew cleanup hugo&amp;hellip;
-Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
-Hide these hints with HOMEBREW_NO_ENV_HINTS (see man brew).
-Install finish hugo version
-hugo v0.100.2+extended darwin/amd64 BuildDate=unknown
-xujian@xujians-iMac ~ % hugo new site myblog
-Congratulations! Your new Hugo site is created in /Users/xujian/myblog.</description>
+      <guid>https://godglave.github.io/post/blog_build/</guid>
+      <description>MyBlog 1.Hugo Install 1 2 brew install hugo # 安装 Hugo hugo version # 安装版本查询，成功则说明正确 2. GitHub 上创建 Repository 创建项目名为 “用户名” + github.io 的仓库，比我的仓库名为 godglave.gi</description>
     </item>
     
   </channel>
