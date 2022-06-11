@@ -5,6 +5,16 @@
     <link>https://godglave.github.io/</link>
     <description>Recent content on LittleArrow&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language><atom:link href="https://godglave.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sat, 11 Jun 2022 20:39:22 +0800</lastBuildDate><atom:link href="https://godglave.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog_Build</title>
+      <link>https://godglave.github.io/blog_build/</link>
+      <pubDate>Sat, 11 Jun 2022 20:39:22 +0800</pubDate>
+      
+      <guid>https://godglave.github.io/blog_build/</guid>
+      <description>MyBlog 1.Hugo Install 1 2 brew install hugo # 安装 Hugo hugo version # 安装版本查询，成功则说明正确 2. GitHub 上创建 Repository 创建项目名为 “用户名” + github.io 的仓库，比我的仓库名为 godglave.gi</description>
+    </item>
+    
   </channel>
 </rss>
