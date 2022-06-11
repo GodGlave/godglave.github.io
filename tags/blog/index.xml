@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on LittleArrow&#39;s Blog</title>
     <link>https://godglave.github.io/tags/blog/</link>
@@ -13,7 +13,11 @@
       <pubDate>Sat, 11 Jun 2022 20:39:22 +0800</pubDate>
       
       <guid>https://godglave.github.io/blog_build/</guid>
-      <description>MyBlog 1.Hugo Install 1 2 brew install hugo # 安装 Hugo hugo version # 安装版本查询，成功则说明正确 2. GitHub 上创建 Repository 创建项目名为 “用户名” + github.io 的仓库，比我的仓库名为 godglave.gi</description>
+      <description>MyBlog 1.Hugo Install brew install hugo # 安装 Hugo hugo version # 安装版本查询，成功则说明正确 2. GitHub 上创建 Repository 创建项目名为 “用户名” + github.io 的仓库，比我的仓库名为 godglave.github.io。
+3.初始化 安装好 Hugo 软件后需要制定我们在哪里存储本地博客相关的配置和静态文件，比如：
+md 文件 主题 配置 html 文档 在本地选择一个你打算存放上述文件的路径，比如我选择~/myblog，然后执行如下命令，生产一个 Hugo 的 workspace：
+cd ~ hugo new sitet myblog cd myBlog tree # 查看 workspace 的目录结构 此时的目录结构如下所示：
+├── archetypes # 储存.md的模板文件，新建一个 .md 文件时，就会按此模版创建 ├── content # 储存网站的所有内容，写的 md 文章存放在这里 ├── data # 保存站点可使用的配置文件 ├── layouts # 网站模版，选择主题后会将主题中的 layouts 文件夹中的内容复制到此文件夹中 ├── static # 包含 CSS、JavaScript、Fonts、media 等，决定网站的外观。选择主题后会将主题中的 ststic 文件夹中的内容复制到此文件夹中 ├── themes # 存放主题文件 └── config.</description>
     </item>
     
   </channel>
