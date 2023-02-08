@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://godglave.github.io/sitemap.xml
